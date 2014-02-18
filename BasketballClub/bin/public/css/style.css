@@ -1,0 +1,208 @@
+body
+{
+background-image:url('../images/back.jpg');
+}
+
+#menu
+{
+	text-align: center;
+	background: #000;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	overflow: hidden;
+}
+#menu li, #menu a {
+	display: inline;
+	color: #fff;
+	text-decoration: none;
+	font: bold 16px verdana, arial, helvetica, sans-serif;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 15px;
+	margin: 0;
+}
+#home
+{
+	float:left;
+}
+#logreg
+{
+	float:right;
+}
+#footer {
+	height: 30px;
+	background-color: #000;
+	color: #fff;
+	font: normal 15px/30px arial, verdana, helvetica, sans-serif;
+	color: #fff;
+	text-align: center;
+	clear: both;
+	padding:5px;
+}
+.playerimage
+{
+	margin-right:15px;
+	height:100px;
+	width:100px;
+}
+#title 
+{
+	width: 510px;
+	height: 75px;
+	line-height: 75px;
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 25px;
+	text-align: center;
+	font: bold 40px verdana, arial, helvetica, sans-serif;
+	color: #FE9B27;
+	letter-spacing: 8px;
+	cursor: default;
+	
+}
+#starting {
+	height: 246px;
+	background: #FE8624;
+	border-top: 1px solid #FEC782;
+	border-left: 1px solid #FEB154;
+	border-right: 1px solid #D76C22;
+	border-bottom: 1px solid #783C1C;
+	overflow: hidden;
+	text-align:center;
+	color:#F3F3F3;
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size:15px;
+}
+
+#starting h1
+{
+	margin-bottom:0;
+	margin-top:10px;
+}
+
+#starting ul {
+	width: 710px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	margin-left: 15px;
+}
+
+#starting ul li {
+	float: left;
+	text-align: center;
+	margin-left: 25px;
+	display: inline;
+}
+
+
+#starting ul li h2 {
+	font: bold 11px arial, verdana, helvetica;
+	margin-top: 10px;
+	color: #F3F3F3;
+}
+
+#starting ul li a img {
+	border: 3px solid #fff;
+}
+
+#container {
+	width: 732px;
+	margin: 0 auto;
+	background-color: #F3F3F3;
+	height: auto;
+	margin-top:30px;
+	min-height:800px;
+}
+
+.content {
+	
+	margin: 20px 10px 0 20px;
+	font: normal 11px/18px arial, verdana, helvetica, sans-serif;
+	text-align: center;
+	
+}
+
+.content h1, .content ul {
+	margin: 0;
+	padding: 0;
+}
+
+.content h1 {
+	color: #8A0700;
+	font: normal 2em arial, verdana, helvetica, sans-serif;
+	margin-bottom: 20px;
+}
+
+.content h2 {
+	margin: 20px 0 4px 0;
+}
+
+.logo
+{
+	height:100px;
+	widht:100px;
+	display:inline;
+}
+
+.left
+{
+	float:left;
+}
+
+.right
+{
+	float:right;
+	
+}
+
+p.logintitle, p.registertitle, p.playertitle {
+	margin: 15px auto;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+p.loginerror, p.registererror, p.playererror {
+	margin: 15px auto;
+	font-size: 14px;
+	font-weight: bold;
+	color: red;
+}
+
+label.loginlabel, label.registerlabel, label.playerlabel {
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 120px;
+	text-align: left;
+	margin-right: 10px;
+	font-size: 12px;
+}
+
+.playerinfo
+{
+	margin-bottom:50px;
+}
+
+div.playerinfo img {
+	height:180px;
+	width:180px;
+}
+
+div.playerinfo h2 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+div.playerinfo p.playerheight, div.playerinfo p.playerposition, div.playerinfo p.playerrating {
+	font-size: 14px;
+	//font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.position
+{
+	font-size:13px !important;
+}
